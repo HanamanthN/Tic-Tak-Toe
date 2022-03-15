@@ -6,7 +6,7 @@ workflows:
          script: echo "Welcome to your CI / CD set up"
     publishing:
         email:
-            recipient:
+            recipients:
                 - hanamanthnagonde@gmail.com
     
 
