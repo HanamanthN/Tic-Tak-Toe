@@ -1,0 +1,12 @@
+workflows:
+  game-workflow:
+    name: Game Pipeline
+    scripts:
+       - name: CICD Started
+         script: echo "Welcome to your CI / CD set up"
+    publishing:
+        email:
+            recipient:
+                - hanamanthnagonde@gmail.com
+    
+
